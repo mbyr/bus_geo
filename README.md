@@ -32,9 +32,9 @@ The listed features were investigated in the following papers:
 
 If you find this site useful for your work, consider citing the following papers: 
 
-[Byra et al. Early prediction of response to neoadjuvant chemotherapy in breastcancer sonography using Siamese convolutional neural networks. IEEE Journal of Biomedical and Health Informatics, 2020.](https://doi.org/10.1109/JBHI.2020.3008040)
+- [Byra et al. Early prediction of response to neoadjuvant chemotherapy in breastcancer sonography using Siamese convolutional neural networks. IEEE Journal of Biomedical and Health Informatics, 2020.](https://doi.org/10.1109/JBHI.2020.3008040)
 
-[Piotrzkowska-Wroblewska et al. Open access database of raw ultrasonic signals acquired from malignant and benign breast lesions. Medical Physics, 2017.](https://doi.org/10.1002/mp.12538)
+- [Piotrzkowska-Wroblewska et al. Open access database of raw ultrasonic signals acquired from malignant and benign breast lesions. Medical Physics, 2017.](https://doi.org/10.1002/mp.12538)
 
 e-mail: byra.michal@gmail.com
 
