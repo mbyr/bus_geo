@@ -16,7 +16,7 @@ z = bound{1}(:, 1);
 y = bound{1}(:, 2);
 
 dwr = (max(z) - min(z)) / (max(y) - min(y)); % DWR
-circularity = 4*rp.Area / (pi*rp.Perimeter^2); % CIRCULARITY
+circularity = pi*4*rp.Area / (rp.Perimeter^2); % CIRCULARITY
 roundness = 4*rp.Area / (pi*rp.MajorAxisLength^2); % ROUNDNESS
 
 % % % % % % % %
