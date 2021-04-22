@@ -12,8 +12,20 @@ convexity = rp.Area / rp.ConvexArea; % CONVEXITY
 % % % % % % % %
 
 bound = bwboundaries(roi);
-z = bound{1}(:, 1);
-y = bound{1}(:, 2);
+
+s = []; 
+
+for i=1:length(bound)
+    
+    temp = bound{i};
+    s(i) = size(temp, 1); 
+
+end
+
+[~, n] = max(s); 
+
+z = bound{n}(:, 1);
+y = bound{n}(:, 2);
 
 dwr = (max(z) - min(z)) / (max(y) - min(y)); % DWR
 circularity = pi*4*rp.Area / (rp.Perimeter^2); % CIRCULARITY
